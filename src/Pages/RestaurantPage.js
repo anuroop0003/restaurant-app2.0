@@ -11,7 +11,7 @@ function RestaurantPage() {
   const restaurants = allRestaurants.restaurants
   // console.log(restaurants);
   // console.log(id);
-  const selectedRestaurant = restaurants.filter((restaurant) => restaurant.id == id)
+  const selectedRestaurant = restaurants.filter((restaurant) => restaurant.id === Number.parseInt(id, 10));
   // console.log(selectedRestaurant);
   return (
     // <Link

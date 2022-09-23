@@ -13,7 +13,7 @@ function ReactSelect() {
       options.push({ value: element, label: element })
     );
     useEffect(() => {
-    let selectedAddress = select != undefined || null ? restaurants.filter((restaurant) => select.value === restaurant.address) : null;
+    let selectedAddress = select !== null ? restaurants.filter((restaurant) => select.value === restaurant.address) : null;
     selectedAddress !== null && dispatch({ type: "ON_ADDRESS_SELECT", payload: selectedAddress });
   }, [select]);
   return (
