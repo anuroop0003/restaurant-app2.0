@@ -1,0 +1,120 @@
+/* #listcard-container-details {
+    width: calc(90% - 100px);
+    background-color: #00ADB5;
+    /* backgroundColor:"#00ADB5" */
+    /* display: flex; */
+    /* margin: 30px 50px; */
+    /* justify-content: center; */
+    /* font-size: 20px; */
+/* }  */
+#listcard-items-timings{
+    width: 100%;
+    /* height: 100%; */
+    /* height: 300px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#listcard-timing {
+    text-align: start;
+    font-size: 30px;
+    font-family: Cambria;
+    padding-left: 50px;
+}
+#listcard-cardcontent-timing {
+    padding: 0px 30px;
+    height: 90%;
+
+}
+#listcard-title-timing {
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: Cambria;
+    padding-bottom: 20px;
+
+}
+#listcard-container-reviews {
+    width: calc(90% - 100px);
+    /* background-color: #DBE2EF; */
+    /* display: flex; */
+    margin: 30px 50px;
+    /* justify-content: center; */
+}
+#listcard-cardcontent-reviews {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#listcard-name  {
+    font-size: 50px;
+    font-family: Cambria;
+}
+#listcard-comments{
+    font-size: 20px;
+    text-align: justify;
+    font-family: Cambria;
+}
+#listcard-date{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Cambria;
+}
+
+
+@media screen and (max-width:767px) {
+    #listcard-timing {
+        font-size: 20px;
+        font-family: Cambria;
+        padding-left: 10px;
+        /* text-align: center; */
+    }    
+    #listcard-items-timings{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        /* margin: 30px 0; */
+        flex-direction: column;
+        justify-content: center;
+    }
+    #listcard-cardcontent-timing {
+        padding-top: 30px;
+        height: 100%;
+        /* position: fixed; */
+    }
+    #listcard-title-timing {
+        font-size: 30px;
+        font-family: Cambria;
+        margin-bottom: 0px;
+        text-align: start;
+        padding-bottom: 20px;
+    }
+    #listcard-cardcontent-timing div{
+        padding-left: 30px;
+    }
+    #listcard-cardcontent-reviews {
+        padding-bottom: 5px;
+        padding-top: 15px;
+    }
+    #listcard-name  {
+        font-size: 30px;
+        font-family: Cambria;
+        
+    }
+    #listcard-comments{
+        font-size: 15px;
+        text-align: justify;
+        font-family: Cambria;
+    }
+    #listcard-date{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Cambria;
+    }
+#listcard-container-reviews {
+    width: calc(90% - 60px);
+        height: 100%;
+        /* display: flex; */
+        margin: 30px auto;
+        /* background-color: #DBE2EF; */
+        /* justify-content: center; */
+}
+}

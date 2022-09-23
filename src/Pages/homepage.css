@@ -1,0 +1,104 @@
+#react-select {
+    margin: 0 30px;
+    width: 100%;
+}
+
+#listcard-container {
+    width: calc(90% - 100px);
+    /* background-color: #DBE2EF; */
+    /* display: flex; */
+    margin: 30px 50px;
+    /* justify-content: center; */
+}
+
+#listcard-items {
+    width: 100%;
+    /* height: 100%; */
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#listcard-img {
+    height: 450px;
+    width: 300px;
+    /* object-fit: scale-down; */
+}
+
+#listcard-cardcontent {
+    padding: 10px 30px;
+    height: 100%;
+
+}
+
+#listcard-title {
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: Cambria;
+    line-height: normal;
+    /* padding-bottom: 10px; */
+}
+
+#listcard-address {
+    font-size: 30px;
+    font-family: Cambria;
+}
+
+#listcard-cuisine {
+    font-size: 30px;
+    font-family: Cambria;
+}
+
+@media screen and (max-width: 767px) {
+    #listcard-container {
+        width: calc(90% - 60px);
+        height: 380px;
+        /* display: flex; */
+        margin: 30px auto;
+        /* background-color: #DBE2EF; */
+        /* justify-content: center; */
+    }
+    #listcard-img {
+        /* margin-top: 30px; */
+        height: 300px;
+        width: 200px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        margin: 30px auto 0 auto
+
+    }
+    #listcard-cardcontent {
+        padding: 10px 30px;
+        height: 100%;
+        /* position: fixed; */
+    }
+    #listcard-items {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        /* margin: 30px 0; */
+        flex-direction: column;
+        justify-content: center;
+    }
+    #listcard-title {
+        /* width: 300px; */
+        font-size: 30px;
+        font-family: Cambria;
+        text-align: center;
+        padding-bottom: 0px;
+        margin-top: 0px;
+    }
+    
+    #listcard-address {
+        font-size: 20px;
+        font-family: Cambria;
+        text-align: center;
+    }
+    
+    #listcard-cuisine {
+        font-size: 20px;
+        font-family: Cambria;
+        text-align: center;
+    }
+}
