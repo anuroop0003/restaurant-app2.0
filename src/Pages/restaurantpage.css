@@ -19,18 +19,18 @@
     text-align: start;
     font-size: 30px;
     font-family: Cambria;
-    padding-left: 50px;
+    /* padding-left: 20px; */
 }
 #listcard-cardcontent-timing {
-    padding: 0px 30px;
-    height: 90%;
+    padding: 0px 20px;
+    height: 100%;
 
 }
 #listcard-title-timing {
     margin-top: 20px;
     font-size: 50px;
     font-family: Cambria;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 
 }
 #listcard-container-reviews {
@@ -41,8 +41,9 @@
     /* justify-content: center; */
 }
 #listcard-cardcontent-reviews {
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding: 10px 30px 0 5px;
+    padding-left: 20px;
+    padding-bottom: 0;
 }
 #listcard-name  {
     font-size: 50px;
@@ -65,6 +66,7 @@
         font-size: 20px;
         font-family: Cambria;
         padding-left: 10px;
+        margin-bottom: 10px;
         /* text-align: center; */
     }    
     #listcard-items-timings{
@@ -76,7 +78,7 @@
         justify-content: center;
     }
     #listcard-cardcontent-timing {
-        padding-top: 30px;
+        padding: 0px;
         height: 100%;
         /* position: fixed; */
     }
@@ -100,7 +102,7 @@
         
     }
     #listcard-comments{
-        font-size: 15px;
+        font-size: 20px;
         text-align: justify;
         font-family: Cambria;
     }
@@ -116,5 +118,13 @@
         margin: 30px auto;
         /* background-color: #DBE2EF; */
         /* justify-content: center; */
-}
+    }
+    #listcard-container {
+        /* width: calc(90% - 60px); */
+            height: 100%;
+            /* display: flex; */
+            /* margin: 30px auto; */
+            /* background-color: #DBE2EF; */
+            /* justify-content: center; */
+    }
 }

@@ -11,14 +11,12 @@ import {useNavigate} from "react-router-dom";
 
 function RestaurantSearch() {
   const restaurants = useSelector((state) => state.restaurants.filterRestaurants);
-  // const restaurants = allRestaurants;
-  // const {photograph, name, address, cuisine_type} = restaurants[0] || {};
   console.log(restaurants);
   const navigate = useNavigate();
   return (
     <><div>Hello</div>
     <NavBar />
-    <Typography id="Search-title">Search Result</Typography>
+    <Typography id="Search-title">Search Results</Typography>
       {restaurants.map((restaurant, i) => (
         <Card key={i} id="listcard-container" onClick={() => navigate(`/restaurants/${restaurant.id}`)}>
           <CardActionArea id="listcard-items" sx={{backgroundColor:"#DBE2EF"}}>

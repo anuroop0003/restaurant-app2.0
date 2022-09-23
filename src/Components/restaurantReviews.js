@@ -3,6 +3,7 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import NavBar from "./navBar";
+import { Rating } from "@mui/material";
 
 
 function RestaurantReviews({restaurants}) {
@@ -39,6 +40,7 @@ function RestaurantReviews({restaurants}) {
               >
                 {restaurant.date}
               </Typography>
+              <Rating size="medium" color="green" value={restaurant.rating}/>
             </CardContent>
           </div>
       ))}

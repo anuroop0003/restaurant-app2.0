@@ -12,12 +12,7 @@ function RestaurantPage() {
   // console.log(restaurants);
   // console.log(id);
   const selectedRestaurant = restaurants.filter((restaurant) => restaurant.id === Number.parseInt(id, 10));
-  // console.log(selectedRestaurant);
   return (
-    // <Link
-    //   style={{ textDecoration: "none", color: "black" }}
-    //   to="/Restaurants/:id"
-    // >
       <>
         <RestaurantDetails restaurants={selectedRestaurant}/>
         <RestaurantTimings restaurants={selectedRestaurant}/>
